@@ -467,7 +467,7 @@ export default function HomePage() {
 					<div className='flex flex-col md:flex-row justify-between items-center mb-8'>
 						<div className='mb-4 md:mb-0'>
 							<span className='text-2xl font-bold text-white'>
-								Tamohar<span className='text-orange-600'>.</span>
+								Tamohar<span className='text-orange-600'> Foundation</span>
 							</span>
 						</div>
 						<div className='flex gap-6'>
