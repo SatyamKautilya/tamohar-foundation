@@ -97,8 +97,8 @@ export function ImpactPieChart({
 							outerRadius={100}
 							paddingAngle={3}
 							dataKey='value'
-							label={({ name, percent }) =>
-								`${name} ${(percent * 100).toFixed(0)}%`
+							label={({ name, percent }: Record<string, unknown>) =>
+								`${name ?? ''} ${(Number(percent ?? 0) * 100).toFixed(0)}%`
 							}
 							labelLine={false}>
 							{data.map((_, index) => (
